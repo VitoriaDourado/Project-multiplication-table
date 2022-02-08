@@ -1,0 +1,20 @@
+package tabuataToda;
+
+import java.util.Scanner;
+
+public class completaTabuada {
+	
+	public static Scanner ler = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		System.out.println("Digite o número para a tabuada: ");
+		int num = ler.nextInt();
+		
+		for (int numero=0; numero<11; numero++) {
+
+			System.out.println(num + "x" + numero + " = " + (num*numero));
+		}
+		ler.close();
+
+	}
+}
