@@ -1,0 +1,37 @@
+package aula20;
+
+public class Insalubridade {
+
+	public static void main(String[] args){
+		
+		double salario = 1200;
+		String insalubridade = "médio";
+		double aliquota = 0;
+		
+		switch(insalubridade) {
+		
+		case "minimo" :
+			aliquota = 0.10;
+		break;
+		
+		case "médio" :
+			aliquota = 0.20;
+		break;
+		
+		case "máximo" :
+			aliquota = 0.40;
+		break;
+		
+		default:
+			System.out.println("Valor Inexistente");
+		}
+		double valorInsa = salario * aliquota;
+		System.out.println("---------------FOLHA DE PAGAMENTO-------------");
+		System.out.println("Adicional de insalubridade : 10% - 20% - 40% ");
+		System.out.println("----------------------------------------------");
+		System.out.println("Funcionário: Vitória Dourado");
+		System.out.println("Salário R$ " + salario);
+		System.out.println("Adicional de insalubridade : "+ insalubridade);
+		System.out.println("Valor de Insalubridade R$ : "+ valorInsa);
+	}
+}

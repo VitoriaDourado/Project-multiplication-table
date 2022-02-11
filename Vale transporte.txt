@@ -1,0 +1,17 @@
+package aula20;
+
+public class ValeTransporte {
+
+	public static void main(String[] args) {
+		double salario = 1200;
+		double vlTransporte = 0.06;
+		double valor = salario * vlTransporte;
+		
+		System.out.println("--------------FOLHA DE PAGAMENTO--------------");
+		System.out.println("Vale transporte : 6%");
+		System.out.println("----------------------------------------------");
+		System.out.println("Funcionário: Vitória Dourado");
+		System.out.println("Salário R$ " + salario);
+		System.out.println("Valor a descontar de V.T R$ " + valor);
+	}
+}

@@ -1,0 +1,25 @@
+package aula20;
+
+public class Abano {
+
+	public static void main(String[] args) {
+		double salario = 1900;
+		double qtdFilho = 2;
+		Double valorSalFamilia = 56.47;
+		double abono = 0;
+		
+		if(salario <= 1655.98) {
+			abono = qtdFilho * valorSalFamilia;
+		}else {
+			abono = 0;
+		}
+		
+		System.out.println("---------------FOLHA DE PAGAMENTO-------------");
+		System.out.println("SALÁRIO FAMÍLIA : 56,47");
+		System.out.println("----------------------------------------------");
+		System.out.println("Funcionário: Vitória Dourado");
+		System.out.println("Salário R$ " + salario);
+		System.out.println("Quantidade de filhos : "+ qtdFilho);
+		System.out.println("Valor do Salário Família R$ : "+ abono);
+	}
+}

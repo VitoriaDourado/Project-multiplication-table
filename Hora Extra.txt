@@ -1,0 +1,20 @@
+package aula20;
+
+public class HoraExtra {
+
+	public static void main(String[] args) {
+		
+		double salario = 1212;
+		double qtdHora = 10;
+		double valorHoraExtra = ((salario / 220) + (salario / 220)*0.50);
+		double valorTotalHora = qtdHora * valorHoraExtra;
+		
+		System.out.println("------------FOLHA DE PAGAMENTO-----------");
+		System.out.println("HORA EXTRA : 50% ADICIONAL DA HORA NORMAL");
+		System.out.println("-----------------------------------------");
+		System.out.println("Funcionário: Vitória Dourado");
+		System.out.println("Salário R$ "+ salario);
+		System.out.println("Quantidade horas trabalhadas: " + qtdHora);
+		System.out.println("Valor total de horas extras R$ : "+ valorTotalHora);
+	}
+}

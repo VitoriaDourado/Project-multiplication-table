@@ -1,0 +1,20 @@
+package aula20;
+
+public class Faltas {
+
+	public static void main(String[] args) {
+		
+		double salario = 1200;
+		double qtdFaltas = 2;
+		double valorDiaFalta = salario / 30;
+		double valorTotalFalta = qtdFaltas * valorDiaFalta;
+		
+		System.out.println("---------------FOLHA DE PAGAMENTO-------------");
+		System.out.println("VALOR DA FALTA : SALÁRIO / 30 ");
+		System.out.println("----------------------------------------------");
+		System.out.println("Funcionário: Vitória Dourado");
+		System.out.println("Salário R$ " + salario);
+		System.out.println("Quantidade de faltas : "+ qtdFaltas);
+		System.out.println("Valor total a descontar de falta R$ : "+ valorTotalFalta);
+	}
+}
